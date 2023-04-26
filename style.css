@@ -11,7 +11,14 @@
 .b-b-b{
     border: 2px dashed black;
 }
-
+.bg-b {
+    background-color: blue;
+}
+.sp-square {
+    background-color: #EF82EE;
+    width: 60%;
+    height: 200px;
+}
 
 
 
@@ -41,4 +48,8 @@ header {
     width: 15%;
     background-color: yellow;
     justify-content: flex-end;
+}
+.jumbotron {
+    justify-content: center;
+    padding: 20px 0;
 }
