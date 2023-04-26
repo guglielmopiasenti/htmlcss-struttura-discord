@@ -18,6 +18,9 @@
 .bg-w {
     background-color: white;
 }
+.bg-g {
+    background-color: #D3D3D3;
+}
 /* squares */
 .squares {
    padding: 30px 0;
@@ -25,17 +28,16 @@
 .sp-square {
     background-color: #EF82EE;
     width: 80%;
-    height: 200px;
+    height: 250px;
 }
 .b-square {
     background-color: #1D91FF;
-    height: 250px;
+    height: 300px;
     flex-grow: 2;
-
 }
 .p-square {
      background-color: #FFC1CB;
-     height: 250px;
+     height: 300px;
      flex-grow: 1;
 }
 
@@ -71,4 +73,7 @@ header {
 .jumbotron {
     justify-content: center;
     padding: 30px 0;
+}
+.p-b {
+    flex-direction: row-reverse;
 }
