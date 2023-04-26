@@ -11,6 +11,9 @@
 .b-b-b{
     border: 2px dashed black;
 }
+.b-b-w {
+    border: 2px dashed white;
+}
 /* backgrounds */
 .bg-b {
     background-color: blue;
@@ -20,6 +23,9 @@
 }
 .bg-g {
     background-color: #D3D3D3;
+}
+.bg-dg {
+    background-color: #23272A;
 }
 /* squares */
 .squares {
@@ -43,6 +49,16 @@
 .g-square {
     background-color: green;
     height: 600px;
+}
+.salmon-square {
+    background-color: #F08080;
+    height: 300px;
+    flex-grow: 2;
+}
+.a-squares {
+    background-color: #20B2A9;
+    height: 300px;
+    flex-grow: 1;
 }
 
 
