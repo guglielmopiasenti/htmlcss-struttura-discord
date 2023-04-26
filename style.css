@@ -27,6 +27,11 @@
 .bg-dg {
     background-color: #23272A;
 }
+.bg-dg-bw {
+    background-color: #23272A;
+    border-top: 2px solid white;
+    padding-top: 20px;
+}
 /* squares */
 .squares {
    padding: 30px 0;
@@ -96,4 +101,22 @@ header {
 }
 .p-b {
     flex-direction: row-reverse;
+}
+.bar {
+    background-color: #7FFFD4;
+    height: 60px;
+    justify-content: space-between;
+    
+
+}
+.logo-footer{
+    background-color: #FFB6C1;
+    height: 20px;
+    align-self: center;
+    
+}
+.button {
+    background-color: #FFB6C1;
+    height: 20px;
+    align-self: center;
 }
