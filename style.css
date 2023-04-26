@@ -11,17 +11,36 @@
 .b-b-b{
     border: 2px dashed black;
 }
+/* backgrounds */
 .bg-b {
     background-color: blue;
 }
+.bg-w {
+    background-color: white;
+}
+/* squares */
+.squares {
+   padding: 30px 0;
+}
 .sp-square {
     background-color: #EF82EE;
-    width: 60%;
+    width: 80%;
     height: 200px;
+}
+.b-square {
+    background-color: #1D91FF;
+    height: 250px;
+    flex-grow: 2;
+
+}
+.p-square {
+     background-color: #FFC1CB;
+     height: 250px;
+     flex-grow: 1;
 }
 
 
-
+/* main css */
 header {
     background-color: aquamarine;
     height: 50px;
@@ -51,5 +70,5 @@ header {
 }
 .jumbotron {
     justify-content: center;
-    padding: 20px 0;
+    padding: 30px 0;
 }
