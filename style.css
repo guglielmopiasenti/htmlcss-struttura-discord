@@ -40,6 +40,10 @@
      height: 300px;
      flex-grow: 1;
 }
+.g-square {
+    background-color: green;
+    height: 600px;
+}
 
 
 /* main css */
